@@ -1,7 +1,7 @@
 Umbraco Snippets
 ________________
 
-Some code that might be usefull for other people.
+Some code that might be useful for other people.
 
 
 Use the SQL below to generate files in SSMS to insert the data in another Umbraco database
