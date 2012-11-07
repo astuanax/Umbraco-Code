@@ -79,24 +79,6 @@ GO
 EXECUTE sp_generate_inserts @table_name='cmsTemplate', @disable_constraints=1;
 GO
 
-EXECUTE sp_generate_inserts @table_name='dtproperties', @disable_constraints=1;
-GO
-
-EXECUTE sp_generate_inserts @table_name='kpiKeywordsRank', @disable_constraints=1;
-GO
-
-EXECUTE sp_generate_inserts @table_name='kpiWebsite', @disable_constraints=1;
-GO
-
-EXECUTE sp_generate_inserts @table_name='kpiWebsite2', @disable_constraints=1;
-GO
-
-EXECUTE sp_generate_inserts @table_name='local', @disable_constraints=1;
-GO
-
-EXECUTE sp_generate_inserts @table_name='pluginWebstickies', @disable_constraints=1;
-GO
-
 EXECUTE sp_generate_inserts @table_name='umbracoApp', @disable_constraints=1;
 GO
 
