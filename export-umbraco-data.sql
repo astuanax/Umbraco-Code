@@ -1,3 +1,8 @@
+/*******
+ Len Dierickx @ Astuanax
+ Run sp on all tables to generate INSERT statements for the Umbraco data .
+ Set output of SSMS to file.
+ *******/
 EXECUTE sp_generate_inserts @table_name='cmsContent', @disable_constraints=1;
 GO
 
