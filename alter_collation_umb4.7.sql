@@ -1,4 +1,5 @@
 /*****
+Len Dierickx @ Astuanax
 Change COLLATION on 4.7 database from Danish_Norwegian to database_default 
 Umbraco 4.7 has some columns set to Danish collation which will prevent export/backup scripts to run. 
 Use this script first to change the collation to the database default
