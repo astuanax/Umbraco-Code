@@ -1,3 +1,9 @@
+/*****
+Change COLLATION on 4.7 database from Danish_Norwegian to database_default 
+Umbraco 4.7 has some columns set to Danish collation which will prevent export/backup scripts to run. 
+Use this script first to change the collation to the database default
+******/
+
 ALTER TABLE [dbo].[cmsTemplate] ALTER COLUMN design ntext COLLATE database_default NOT NULL;
 ALTER TABLE [dbo].[umbracoStatSession] ALTER COLUMN visitorId char(36) COLLATE database_default NULL;
 ALTER TABLE [dbo].[umbracoStatSession] ALTER COLUMN browserType nvarchar(510) COLLATE database_default NULL;
