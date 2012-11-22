@@ -23,9 +23,11 @@ name: Page ID
 Type: number
 
 which you can then reference in the <HEAD> of your master pages:
+    <code>
 <head runat="server">
 <umbraco:Macro pageid="[#pageID]" Alias="astuanax.uLog4Js" runat="server"/>
 </head>
+</code>
 Please make sure to run this code before any other JavaScript
 
 The source code for this package can be found on GitHub:
