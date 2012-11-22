@@ -15,19 +15,19 @@ Files
 - /xslt/astuanax.uLog4Js.xslt
 
 Macros
-- Create a macro astuanax.uLog4Js with 
-the following  parameter
+Create a macro astuanax.uLog4Js with the following  parameters
 
-alias : pageid
-name: Page ID
-Type: number
+* alias : pageid
+* name: Page ID
+* Type: number
 
-which you can then reference in the <HEAD> of your master pages:
+which you can then reference in the ```<HEAD>``` of your master pages:
 ```HTML
 <head runat="server">
 <umbraco:Macro pageid="[#pageID]" Alias="astuanax.uLog4Js" runat="server"/>
 </head>
 ```
+
 Please make sure to run this code before any other JavaScript
 
 The source code for this package can be found on GitHub:
