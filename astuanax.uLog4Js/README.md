@@ -2,6 +2,13 @@ astuanax.uLog4Js
 
 A client-side javascript logger for Umbraco
 
+Add the macro to the HEAD of your master template and it will
+log all the errors into the Umbraco log table.
+
+Use a the log-manager package to see the log items
+http://our.umbraco.org/projects/developer-tools/log-manager
+
+
 Options available in the astuanax.config file:
 
 - logEnabled: true / false
